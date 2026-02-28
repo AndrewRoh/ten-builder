@@ -4,7 +4,7 @@
 
 set -e
 
-echo "🚀 TenBuilder AI Coding Environment Setup"
+echo "🚀 텐빌더 AI Coding Environment Setup"
 echo "==========================================="
 echo ""
 
@@ -63,10 +63,10 @@ echo ""
 echo "🔧 Shell Aliases..."
 
 ZSHRC="${HOME}/.zshrc"
-if [ -f "$ZSHRC" ] && ! grep -q '# TenBuilder AI aliases' "$ZSHRC" 2>/dev/null; then
+if [ -f "$ZSHRC" ] && ! grep -q '# 텐빌더 AI aliases' "$ZSHRC" 2>/dev/null; then
     cat >> "$ZSHRC" << 'ALIASES'
 
-# TenBuilder AI aliases
+# 텐빌더 AI aliases
 alias cc='claude'
 alias ccr='claude "현재 브랜치 변경사항을 리뷰해줘"'
 alias cct='claude "테스트를 실행하고 실패하면 수정해줘"'
