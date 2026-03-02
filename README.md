@@ -1,6 +1,6 @@
 # 텐빌더
 
-> AI로 10배 빠르게 빌드하는 방법을 알려드려요.
+> AI로 10배 빠르게 빌드하는 방법을 알려드려요
 
 [![Newsletter](https://img.shields.io/badge/뉴스레터-구독-blue)](https://maily.so/tenbuilder)
 [![YouTube](https://img.shields.io/badge/YouTube-텐빌더-red)](https://youtube.com/@ten-builder)
