@@ -18,18 +18,34 @@ Claude Code, Gemini 등 AI를 실무에서 직접 써보고 검증한 내용을 
 
 ---
 
+## 목차
+
+- [무엇이 있나요?](#무엇이-있나요)
+- [Quick Start](#quick-start)
+- [에이전트 팀](#에이전트-팀)
+- [가이드 목차](#가이드-목차)
+- [에피소드별 코드](#에피소드별-코드)
+- [치트시트](#치트시트)
+- [실전 예제](#실전-예제)
+- [워크플로](#워크플로)
+- [플레이북](#플레이북)
+- [템플릿](#템플릿)
+- [스킬](#스킬)
+
+---
+
 ## 무엇이 있나요?
 
 | 폴더 | 내용 | 난이도 |
 |------|------|--------|
 | [`/guides`](./guides) | 1~12 단계별 실전 가이드 | ⭐⭐⭐ |
 | [`/episodes`](./episodes) | 영상별 코드 & 스크립트 | ⭐⭐ |
-| [`/templates`](./templates) | 복사해서 바로 쓰는 설정 파일 | ⭐ |
-| [`/examples`](./examples) | 프로젝트별 실전 예제 | ⭐⭐ |
 | [`/cheatsheets`](./cheatsheets) | 원페이저 치트시트 | ⭐ |
+| [`/examples`](./examples) | 프로젝트별 실전 예제 | ⭐⭐ |
 | [`/workflows`](./workflows) | CI/CD, Docker, MCP 워크플로 | ⭐⭐⭐ |
-| [`/skills`](./skills) | Claude Code 학습 스킬 (퀴즈 + 노트) | ⭐⭐ |
 | [`/claude-code`](./claude-code) | 플레이북 & 심화 패턴 | ⭐⭐⭐ |
+| [`/templates`](./templates) | 복사해서 바로 쓰는 설정 파일 | ⭐ |
+| [`/skills`](./skills) | Claude Code 학습 스킬 (퀴즈 + 노트) | ⭐⭐ |
 
 ## Quick Start
 
@@ -89,6 +105,16 @@ cd ten-builder/episodes/ep5-agent-teams-with-tmux
 | 11 | [에이전트 팀](./guides/11-agent-teams.md) | AI 에이전트 5명으로 동시 빌딩 |
 | 12 | [배포](./guides/12-deployment.md) | AI와 배포 파이프라인 구축 |
 
+## 에피소드별 코드
+
+| EP | 제목 | 코드 |
+|----|------|------|
+| EP01 | 바이브 코딩의 함정 | [`/episodes/EP01-vibe-coding`](./episodes/EP01-vibe-coding) |
+| EP02 | 에이전트 팀 | [`/episodes/EP02-agent-teams`](./episodes/EP02-agent-teams) |
+| EP03 | AI 에이전트 A to Z | [`/episodes/EP03-ai-agent-az`](./episodes/EP03-ai-agent-az) |
+| EP04 | Claude Desktop MCP | [`/episodes/EP04-claude-desktop-mcp`](./episodes/EP04-claude-desktop-mcp) |
+| EP05 | 에이전트 팀즈 with tmux | [`/episodes/EP05-agent-teams-tmux`](./episodes/EP05-agent-teams-tmux) |
+
 ## 치트시트
 
 | 치트시트 | 설명 |
@@ -126,15 +152,47 @@ cd ten-builder/episodes/ep5-agent-teams-with-tmux
 | [GitHub Actions AI 리뷰](./workflows/github-actions-ai-review.md) | PR 자동 리뷰 워크플로 |
 | [모노레포 AI 워크플로](./workflows/monorepo-ai-workflow.md) | 모노레포 AI 개발 패턴 |
 
-## 에피소드별 코드
+## 플레이북
 
-| EP | 제목 | 코드 |
-|----|------|------|
-| EP01 | 바이브 코딩의 함정 | [`/episodes/EP01-vibe-coding`](./episodes/EP01-vibe-coding) |
-| EP02 | 에이전트 팀 | [`/episodes/EP02-agent-teams`](./episodes/EP02-agent-teams) |
-| EP03 | AI 에이전트 A to Z | [`/episodes/EP03-ai-agent-az`](./episodes/EP03-ai-agent-az) |
-| EP04 | Claude Desktop MCP | [`/episodes/EP04-claude-desktop-mcp`](./episodes/EP04-claude-desktop-mcp) |
-| EP05 | 에이전트 팀즈 with tmux | [`/episodes/EP05-agent-teams-tmux`](./episodes/EP05-agent-teams-tmux) |
+> 심화 주제별 단계 가이드 — [`/claude-code/playbooks`](./claude-code/playbooks)
+
+| 플레이북 | 설명 |
+|----------|------|
+| [성능 최적화](./claude-code/playbooks/07-performance.md) | AI로 성능 병목 찾기 & 최적화 |
+| [배포 자동화](./claude-code/playbooks/08-deployment.md) | AI와 배포 파이프라인 구축 |
+| [문서화](./claude-code/playbooks/09-documentation.md) | AI로 문서 자동 생성 & 관리 |
+| [코드 리뷰 심화](./claude-code/playbooks/10-code-review.md) | AI 코드 리뷰 고급 패턴 |
+| [보안 감사](./claude-code/playbooks/11-security-audit.md) | AI로 보안 취약점 점검 |
+
+## 템플릿
+
+> 복사해서 바로 쓰는 설정 파일 — [`/templates`](./templates)
+
+| 템플릿 | 설명 |
+|--------|------|
+| [CLAUDE.md](./templates/CLAUDE.md.template) | 프로젝트 기본 설정 템플릿 |
+| [AGENTS.md](./templates/agents.md.template) | 에이전트 역할 정의 템플릿 |
+| [.cursorrules](./templates/cursorrules.template) | Cursor AI IDE 설정 |
+| [macOS 셋업](./templates/macos-setup.sh) | AI 코딩 환경 원클릭 설치 |
+| [에이전트 팀 실행](./templates/run-agent-team.sh) | tmux 에이전트 팀 실행 스크립트 |
+| [에이전트 팀 프롬프트](./templates/agent-team-example) | 5인 에이전트 팀 프롬프트 예시 |
+
+## 스킬
+
+> Claude Code에서 슬래시 명령으로 바로 사용 — 자세한 설치법은 [`/skills/README.md`](./skills/README.md)
+
+| 스킬 | 명령어 | 설명 |
+|------|--------|------|
+| **study-vault** | `/study-vault` | PDF/문서를 Obsidian 학습 노트로 변환 |
+| **study-quiz** | `/study-quiz` | 대화형 퀴즈로 숙달도 추적 |
+| **session-pack** | `/pack` | 세션 종료 시 Memory/Handoff 자동 정리 |
+
+```bash
+# 자동 설치 (추천)
+curl -sSL https://raw.githubusercontent.com/ten-builder/ten-builder/main/skills/setup.sh | bash
+```
+
+---
 
 ## 이 레포는 어떻게 업데이트 되나요?
 
