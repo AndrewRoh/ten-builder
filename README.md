@@ -22,12 +22,12 @@ Claude Code, Gemini 등 AI를 실무에서 직접 써보고 검증한 내용을 
 
 ```mermaid
 flowchart TD
-    R["ten-builder"] --> G["guides/\n40개 단계별 가이드\n+ 주제별 가이드"]
+    R["ten-builder"] --> G["guides/\n41개 단계별 가이드\n+ 주제별 가이드"]
     R --> E["episodes/\n9개 영상 코드"]
-    R --> C["cheatsheets/\n25개 원페이저"]
+    R --> C["cheatsheets/\n26개 원페이저"]
     R --> EX["examples/\n24개 실전 예제"]
     R --> W["workflows/\n22개 자동화 워크플로"]
-    R --> P["claude-code/playbooks/\n23개 심화 플레이북"]
+    R --> P["claude-code/playbooks/\n24개 심화 플레이북"]
     R --> T["templates/\n설정 파일 & 스크립트"]
     R --> S["skills/\n3개 Claude Code 스킬"]
 
@@ -44,7 +44,7 @@ flowchart TD
 
 | 폴더 | 내용 | 난이도 |
 |------|------|--------|
-| [`/guides`](./guides) | 1~40 단계별 + 주제별 실전 가이드 | ⭐⭐⭐ |
+| [`/guides`](./guides) | 1~41 단계별 + 주제별 실전 가이드 | ⭐⭐⭐ |
 | [`/episodes`](./episodes) | 영상별 코드 & 스크립트 | ⭐⭐ |
 | [`/cheatsheets`](./cheatsheets) | 원페이저 치트시트 | ⭐ |
 | [`/examples`](./examples) | 프로젝트별 실전 예제 | ⭐⭐ |
@@ -192,6 +192,7 @@ cd ten-builder/episodes/ep5-agent-teams-with-tmux
 | 38 | [AI 코드 보안 거버넌스](./guides/38-ai-code-security-governance.md) | AI 생성 코드 보안 정책 & 거버넌스 |
 | 39 | [AI 코딩 워크스테이션](./guides/39-ai-coding-workstation.md) | AI 코딩에 최적화된 워크스테이션 구축 |
 | 40 | [멀티 에이전트 오케스트레이션](./guides/40-multi-agent-orchestration.md) | 멀티 에이전트 조율 & 협업 패턴 |
+| 41 | [AI 에이전트 트러블슈팅](./guides/41-ai-agent-troubleshooting.md) | AI 에이전트 문제 해결 7가지 패턴 |
 
 ### 주제별 가이드
 
