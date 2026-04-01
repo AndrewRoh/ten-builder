@@ -194,6 +194,7 @@ cd ten-builder/episodes/ep5-agent-teams-with-tmux
 | 40 | [멀티 에이전트 오케스트레이션](./guides/40-multi-agent-orchestration.md) | 여러 AI 에이전트 동시 운영 패턴 |
 | 41 | [AI 에이전트 트러블슈팅](./guides/41-ai-agent-troubleshooting.md) | AI 에이전트 문제 해결 7가지 패턴 |
 | 42 | [AI 벤치마크 실전 측정](./guides/42-ai-coding-benchmark-practice.md) | SWE-bench 직접 돌려보고 에이전트 선택 |
+| 43 | [LLM 코딩 워크플로우 최적화](./guides/43-llm-coding-workflow-optimization.md) | 스펙→생성→검증→커밋 실전 루프 |
 
 ### 주제별 가이드
 
