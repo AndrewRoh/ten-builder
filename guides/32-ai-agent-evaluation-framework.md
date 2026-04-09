@@ -157,7 +157,7 @@ agents_to_evaluate:
   
   - name: "Copilot Agent"
     version: "latest"
-    model: "gpt-5.2"
+    model: "gpt-4.1"
 ```
 
 ### Phase 2: 팀 파일럿 (2-3주차)

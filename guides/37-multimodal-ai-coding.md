@@ -11,7 +11,7 @@
 | 도구 | 이미지 입력 방식 | 지원 모델 |
 |------|-----------------|----------|
 | Claude Code | 파일 경로, URL, 클립보드 붙여넣기 | Claude Sonnet/Opus (비전 내장) |
-| Cursor | 채팅창 이미지 드래그 앤 드롭 | GPT-4o, Claude Sonnet |
+| Cursor | 채팅창 이미지 드래그 앤 드롭 | GPT-4.1, Claude Sonnet |
 | v0.dev | 이미지 업로드 + 프롬프트 | Vercel 자체 모델 |
 | Gemini CLI | `--image` 플래그 | Gemini Pro Vision |
 | Builder.io | Figma 플러그인 연동 | 자체 모델 |

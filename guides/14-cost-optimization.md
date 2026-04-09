@@ -15,7 +15,7 @@ AI 코딩 도구가 개발자의 필수 도구로 자리잡으면서, 월 구독
 | GitHub Copilot | Individual | $10 | 자동완성 + 채팅 |
 | Cursor | Pro | $20 | 500 fast requests |
 | Windsurf | Pro | $15 | Cascade 에이전트 |
-| Codex CLI | API | 사용량 기반 | gpt-5.x 토큰 과금 |
+| Codex CLI | API | 사용량 기반 | gpt-4.1 토큰 과금 |
 
 > *"무제한"이라고 해도 rate limit은 존재한다. 실제 Anthropic의 Claude Code 사용자당 비용이 $5,000이라는 루머가 있었지만, [실제 분석](https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/)에 따르면 과장된 수치다.
 

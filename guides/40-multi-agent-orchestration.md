@@ -255,7 +255,7 @@ claude "전체 대시보드 구현을 리뷰:
 
 **비용 최적화 팁:**
 
-- Fan-Out 작업에는 저비용 모델 사용 (Haiku, GPT-4o-mini)
+- Fan-Out 작업에는 저비용 모델 사용 (Haiku, GPT-4.1-mini)
 - Critique에만 고급 모델 사용 (Opus, o3)
 - 캐시 가능한 컨텍스트는 프롬프트 캐싱 활용
 - 불필요한 파이프라인 단계 제거

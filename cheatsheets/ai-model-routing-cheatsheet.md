@@ -10,9 +10,9 @@
 
 | 티어 | 대표 모델 | 특징 | 토큰 비용 (입/출) |
 |------|----------|------|-------------------|
-| **경량 (Fast)** | Claude Haiku, GPT-4o mini, Gemini Flash | 낮은 지연, 저비용 | ~$0.25 / $1.25 per 1M |
-| **범용 (Standard)** | Claude Sonnet, GPT-4o, Gemini Pro | 속도·품질 균형 | ~$3 / $15 per 1M |
-| **고급 (Premium)** | Claude Opus, GPT-5, Gemini Ultra | 최고 추론 능력 | ~$15 / $75 per 1M |
+| **경량 (Fast)** | Claude Haiku, GPT-4.1-mini, Gemini Flash | 낮은 지연, 저비용 | ~$0.25 / $1.25 per 1M |
+| **범용 (Standard)** | Claude Sonnet, GPT-4.1, Gemini Pro | 속도·품질 균형 | ~$3 / $15 per 1M |
+| **고급 (Premium)** | Claude Opus, GPT-4.1, Gemini Ultra | 최고 추론 능력 | ~$15 / $75 per 1M |
 | **추론 특화** | o3, Claude Opus + Extended Thinking | 복잡한 논리 체인 | 가변 (추론 토큰 별도) |
 
 > 가격은 2026년 3월 기준 대략적인 범위예요. 실제 가격은 각 서비스 페이지를 확인하세요.

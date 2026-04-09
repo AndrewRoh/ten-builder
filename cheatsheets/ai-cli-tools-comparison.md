@@ -7,7 +7,7 @@
 | 항목 | Claude Code | Codex CLI | Gemini CLI |
 |------|-------------|-----------|------------|
 | **제작사** | Anthropic | OpenAI | Google |
-| **기본 모델** | Claude Opus 4.6 | GPT-5.4 / 5.3-codex | Gemini 3.1 Pro |
+| **기본 모델** | Claude Opus 4.6 | GPT-4.1 / 5.3-codex | Gemini 3.1 Pro |
 | **컨텍스트 윈도우** | 1M 토큰 (베타) | 400K 토큰 | 2M 토큰 |
 | **컨텍스트 관리** | 자동 컴팩션 | 수동 청킹 | 자동 슬라이딩 |
 | **가격 모델** | API 종량제 / Max 구독 | API 종량제 | 무료 티어 + API |
@@ -123,7 +123,7 @@ echo "src/ 디렉토리의 모든 함수에 대해 테스트를 생성해" | cod
 | 실수 | 해결 |
 |------|------|
 | Claude Code에서 컨텍스트 초과 | `/clear`로 리셋, 필요한 파일만 명시적으로 지정 |
-| Codex에서 모델 지정 안 함 | `config.toml`에 `model = "gpt-5.4"` 명시 |
+| Codex에서 모델 지정 안 함 | `config.toml`에 `model = "gpt-4.1"` 명시 |
 | Gemini 무료 쿼터 소진 | 일일 한도 확인, API 키 유료 전환 검토 |
 | 멀티 도구 사용 시 설정 충돌 | 각 도구의 설정 파일 경로 분리 확인 |
 | MCP 서버 연결 실패 | Claude Code: `claude mcp list`로 상태 확인 |

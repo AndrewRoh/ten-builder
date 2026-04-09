@@ -27,7 +27,7 @@ export GEMINI_API_KEY="..."          # Gemini
 # 실행 (프로젝트 루트에서)
 cd my-project
 aider                               # 기본 모델로 시작
-aider --model claude-3-5-sonnet     # 모델 지정
+aider --model claude-sonnet-4-6     # 모델 지정
 aider --model ollama/llama3         # 로컬 모델
 ```
 
@@ -79,7 +79,7 @@ aider --model ollama/llama3         # 로컬 모델
 단일 모델이 코드를 직접 편집해요. 빠른 수정이나 단순 작업에 적합합니다.
 
 ```bash
-aider --model claude-3-5-sonnet
+aider --model claude-sonnet-4-6
 > /add src/api.py tests/test_api.py
 > 이 API에 페이지네이션 파라미터를 추가해줘
 ```
@@ -89,7 +89,7 @@ aider --model claude-3-5-sonnet
 설계 모델이 변경 계획을 세우고, 편집 모델이 실제 코드를 수정해요. 복잡한 작업에 유용합니다.
 
 ```bash
-aider --architect --model claude-3-5-sonnet --editor-model claude-3-5-haiku
+aider --architect --model claude-sonnet-4-6 --editor-model claude-haiku-4-5
 > /add src/
 > 인증 시스템을 JWT에서 OAuth2로 전환하는 계획을 세우고 실행해줘
 ```
@@ -109,8 +109,8 @@ aider --architect --model claude-3-5-sonnet --editor-model claude-3-5-haiku
 
 ```yaml
 # .aider.conf.yml
-model: claude-3-5-sonnet
-editor-model: claude-3-5-haiku
+model: claude-sonnet-4-6
+editor-model: claude-haiku-4-5
 auto-commits: true
 auto-lint: true
 lint-cmd: "ruff check --fix"
@@ -165,7 +165,7 @@ test-cmd: "pytest -x -q"
 
 ```bash
 # 설계는 큰 모델, 편집은 작은 모델
-aider --architect --model claude-3-5-sonnet --editor-model deepseek/deepseek-chat
+aider --architect --model claude-sonnet-4-6 --editor-model deepseek/deepseek-chat
 
 # 로컬 모델로 비용 0
 aider --model ollama/qwen2.5-coder:32b
